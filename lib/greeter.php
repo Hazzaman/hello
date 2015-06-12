@@ -6,7 +6,7 @@ class Greeter{
     $this->$who = $who;
   }
   function greet() {
-    echo "Hello " . $this->$who;
+    return "Hello " . $this->$who;
   }
 }
 ?>
